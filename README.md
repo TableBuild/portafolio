@@ -1,5 +1,5 @@
 
-# Portafolio académico — Omar Darío Mesa Gómez
+# Portafolio académico — Omar Dario Mesa Gomez
 
 Portafolio web estático (HTML + CSS) orientado a Ingeniería de Software.
 Presenta mi perfil, formación y una propuesta de proyectos en fase de planeación (diseño y documentación).

@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="es-CO">
 <head>
@@ -22,7 +23,7 @@
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
 
   <!-- Preload de la foto del héroe (mantén si es visible en el primer pantallazo) -->
-  <link rel="preload" as="image" href="assets/img/profile.jpg" type="image/jpeg">
+  <link rel="preload" as="image" href="assets/img/profile.jpg" type="image/jpeg" />
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css" />
@@ -104,13 +105,16 @@
 
         <aside class="hero-card" aria-label="Tarjeta de perfil">
           <figure class="profile">
-            <!-- Foto de perfil con webp + jpg (evita CLS con dimensiones/ratio) -->
-            <picture>
-              <source srcset="assets/img/profile.webp" type="image/webp" />
-              <img class="profile-photo-real" src="assets/img/profile.jpg"
-                   alt="Foto de perfil de Omar Dario" width="360" height="360" />
-            </picture>
-
+          <picture> 
+            <source srcset="assets/img/profile.jpg" />
+  <img
+    class="profile-photo-real"
+    src="assets/img/profile.jpg"
+    alt="Foto de perfil de Omar Dario"
+    width="360"
+    height="360"
+  />
+</picture>
             <figcaption class="profile-caption">
               <h2 class="profile-name">Omar Dario Mesa Gomez</h2>
               <p class="profile-role">Ingeniería de Software · Bogotá</p>
@@ -552,16 +556,19 @@
                   linkedin.com/in/odmgdev
                 </a>
               </li>
+              <br>
               <li>
                 <strong>GitHub:</strong>
                 <a href="https://github.com/TableBuild" target="_blank" rel="noopener noreferrer">
                   github.com/TableBuild
                 </a>
               </li>
+              <br>
               <li>
                 <strong>Email:</strong>
                 <a href="mailto:omardario83@gmail.com">omardario83@gmail.com</a>
               </li>
+              <br>
               <li>
                 <strong>WhatsApp:</strong>
                 <a href="https://wa.me/573193708942" target="_blank" rel="noopener noreferrer">
